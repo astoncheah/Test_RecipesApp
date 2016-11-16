@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item in the list of pets -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_margin">
+
+    <TextView
+        android:id="@+id/txtCatId"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#2B3D4D"  />
+
+    <TextView
+        android:id="@+id/txtCatPartName"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#AEB6BD"  />
+    <TextView
+        android:id="@+id/txtCatQty"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#AEB6BD"
+        android:gravity="right"/>
+    <TextView
+        android:id="@+id/txtCatUnitPrice"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1.5"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#AEB6BD"
+        android:gravity="right"/>
+    <Button
+        android:id="@+id/btnCatSell"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:text="@string/sell"
+        android:textSize="12sp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"/>
+</LinearLayout>

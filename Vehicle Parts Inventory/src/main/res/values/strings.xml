@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Parts Inventory</string>
+    <string name="action_save">Save</string>
+    <string name="add">Add New</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all">Delete All Data</string>
+    <string name="search">Search</string>
+    <string name="order">Order</string>
+    <string name="sell">sell</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="order_id">Id</string>
+    <string name="part_name">Part Name</string>
+    <string name="qty">Qty</string>
+    <string name="price">Unit Price ($)</string>
+    <string name="total">Total ($)</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_data">No Data Found</string>
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="new_record_saved">New record saved</string>
+    <string name="new_record_failed">Failed to insert row</string>
+    <string name="min_qty">Minimum quantity is</string>
+    <string name="max_qty">Maximum quantity is</string>
+    <string name="failed_to_order">Failed to order</string>
+    <string name="update_record_saved">Update record saved</string>
+    <string name="update_record_failed">Failed to update row for</string>
+    <string name="empty_view_title_text">Add new part</string>
+    <string name="empty_view_subtitle_text">Click the ADD button to enter new part information</string>
+
+    <!-- dialog -->
+    <string name="no_save_exit">Are you sure you want to exit without saving?</string>
+    <string name="delete_alert">Are you sure you want to this delete record?</string>
+    <string name="sale_alert">Part sales confirmation, click [Confirm] to sale</string>
+    <string name="item_not_registered">You don\'t have this item to sale</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="not_enough_qty">Quantity is not enough</string>
+
+    <!-- empty value-->
+    <string name="part_name_empty">Part Name cannot be empty</string>
+    <string name="qty_empty">Quantity cannot be empty</string>
+    <string name="price_empty">Price cannot be empty</string>
+
+    <!-- parts name-->
+    <string name="engine_oil">Engine Oil</string>
+    <string name="oil_filter">Oil Filter</string>
+    <string name="head_light">Front Head Light</string>
+    <string name="brake_pad">Front Brake Pad</string>
+    <string name="absorber">Front Absorber</string>
+    <string name="tire">Tire</string>
+</resources>
